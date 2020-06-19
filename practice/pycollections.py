@@ -13,4 +13,9 @@ z = 1
 while z <= len(fruits):
     for y in fruits[len(fruits) - z]:
         print(y)
+    print("-----")
     z += 1
+print("Total Fruits:" + str(len(fruits)))
+
+
+
