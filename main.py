@@ -1,4 +1,4 @@
-from practice.pycollections import MyPyCollections
+from pycollections import MyPyCollections
 
 if __name__ == "__main__":
     pycl = MyPyCollections().MyList()
