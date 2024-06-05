@@ -18,3 +18,16 @@ class MyPyCollections:
         def printData(self):
             print("Data From A Set")
             print(self.__data)
+
+    class MyDict:
+        def __init__(self):
+            self.__user = {
+                "Name": "Admin",
+                "Surname": "User",
+                "Email Address": "admin.user@example.com",
+                "username": "admin.user"
+            }
+
+        def printData(self):
+            print("Data From A Dictionary")
+            print(self.__user)
