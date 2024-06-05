@@ -1,21 +1,20 @@
-# List
-fruits = ["Apple", "Banana", "Grapes", "Orange"]
-"""
-print(fruits)
-print(fruits[1])
-print(fruits[-1])
-print(len(fruits))
+class MyPyCollections:
+    class MyList:
+        def __init__(self):
+            # List
+            self.__fruits = ["Apple", "Banana", "Grapes", "Orange"]
 
-for x in fruits:
-    print(x)
-"""
-z = 1
-while z <= len(fruits):
-    for y in fruits[len(fruits) - z]:
-        print(y)
-    print("-----")
-    z += 1
-print("Total Fruits:" + str(len(fruits)))
+        def printData(self):
+            print("Data From A List")
+            print("All Fruits:" + str(self.__fruits))
+            print("First Fruit:" + str(self.__fruits[0]))
+            print("Last Fruit:" + str(self.__fruits[-1]))
+            print("Length:" + str(len(self.__fruits)))
 
+    class MySet:
+        def __init__(self):
+            self.__data = {"Admin", "NonAdmin"}
 
-
+        def printData(self):
+            print("Data From A Set")
+            print(self.__data)
