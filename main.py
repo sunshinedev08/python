@@ -14,7 +14,7 @@ if __name__ == "__main__":
         pycs = MyPyCollections.MySet()
         pycs.printData()
     elif str(args.dict).__eq__("yes"):
-        pycd = MyPyCollections.MyDict
+        pycd = MyPyCollections.MyDict()
         pycd.printData()
     else:
         print(parser.print_usage())
