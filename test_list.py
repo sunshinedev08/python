@@ -20,6 +20,6 @@ class Test_List:
     @allure.epic("Vehicles Management")
     @allure.parent_suite("List Management")
     @pytest.mark.parametrize('vehicles_data', ['ByCycle', 'TriCycle', 'MotorCycle', 'Water Bottle'])
-    def test_isFruit(vehicles_data):
+    def test_isVehicle(vehicles_data):
         vehicles = ['Bus', 'Car', 'ByCycle', 'TriCycle', 'MotorCycle']
         assert vehicles_data in vehicles, f"{vehicles_data} is not a Vehicle"
