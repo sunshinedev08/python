@@ -17,7 +17,7 @@ class Test_Set:
     }])
     def test_isUser(user_data):
         users = [{
-            "Name": "Admin",
+            "Name": "admin",
             "Surname": "User",
             "Email Address": "admin.user@example.com",
             "username": "admin.user"
@@ -29,4 +29,4 @@ class Test_Set:
                 "username": "reader.user"
             }
         ]
-        assert user_data in users, f"{user_data} is not a valid User"
+        assert user_data in users, f"{user_data['Name']} is not a valid User"
