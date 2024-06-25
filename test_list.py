@@ -4,7 +4,6 @@ import pytest
 
 class Test_List:
     @staticmethod
-    @allure.title("Fruits Check")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.description("This Testcase will check if the given set of items in the data list are fruits or not")
     @allure.epic("Fruit Management")
