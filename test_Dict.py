@@ -17,7 +17,7 @@ class Test_Set:
     }])
     def test_isUser(user_data):
         users = [{
-            "Name": "admin",
+            "Name": "Admin",
             "Surname": "User",
             "Email Address": "admin.user@example.com",
             "username": "admin.user"
