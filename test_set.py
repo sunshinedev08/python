@@ -4,7 +4,7 @@ import pytest
 
 class Test_Set:
     @staticmethod
-    @allure.severity(allure.severity_level.CRITICAL)
+    @allure.severity(allure.severity_level.BLOCKER)
     @allure.description("This Testcase will check if the given set of items in the data set are correct roles or not")
     @allure.epic("Roles Management")
     @allure.parent_suite("Set Management")
